@@ -1,0 +1,22 @@
+{
+  "extends": "expo/tsconfig.base",
+  "jsx": "react-jsx",
+  "compilerOptions": {
+    "strict": true,
+    "types": ["@types/styled-components-react-native", "jest"],
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./src/*"],
+      "configuration": ["./src/configuration"],
+      "components": ["./src/components"],
+      "interfaces": ["./src/interfaces"],
+      "constants": ["./src/constants"],
+      "services": ["./src/services"],
+      "screens": ["./src/screens"],
+      "assets": ["./src/assets"],
+      "types": ["./src/types"],
+      "hooks": ["./src/hooks"],
+      "tests": ["./src/tests"]
+    }
+  }
+}
